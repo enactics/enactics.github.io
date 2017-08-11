@@ -4,15 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .heading-font {
-  font-family: 'Lora', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto Slab', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 .body-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto Slab', 'Helvetica', 'Arial', 'sans-serif';
 }
 .alt-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto Slab', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -22,17 +22,17 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto Slab', 'Helvetica', 'Arial', 'sans-serif';
 }
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #ff0083;
+  color: white;
 }
 a:hover,
 a:focus {
-  color: #ff0083;
+  color: white;
 }
 hr {
   max-width: 100px;
@@ -49,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lora', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto Slab', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -57,6 +57,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-weight: 400 !important;
 }
 .navbar-default {
   background-color: white;
@@ -64,12 +65,12 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Lora', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto Slab', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Lora', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto Slab', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
   color: #fdcc52;
@@ -84,7 +85,7 @@ p {
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto Slab', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
@@ -151,11 +152,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: #00ff7d;
+  background: #0099ff;/*#00ff7d;*/
   /* fallback for old browsers */
-  background: #00ff7d;
+  background: #0099ff;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: #00ff7d;
+  background: #0099ff;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -170,16 +171,16 @@ header .header-content .header-content-inner {
   margin: 0 auto;
 }
 header .header-content .header-content-inner h1 {
-  color: #0d0d0d;
+  color: white;
   margin-top: 0;
   margin-bottom: 30px;
-  letter-spacing: -0.75px;
+  letter-spacing: -0.5px;
   font-size: 30px;
   font-weight: 700;
 }
 
 header .header-content .header-content-inner p {
-  color: #0d0d0d;
+  color: white;
 }
 
 header .header-content .header-content-inner .list-badges {
@@ -197,8 +198,8 @@ header .device-container .screen img {
   border-radius: 3px;
 }
 .header-font-heavy h1 {
-  font-family: 'Lora', 'Serif';
-  font-weight: 700 !important;
+  font-family: 'Roboto Slab', 'Serif';
+  font-weight: 600 !important;
 }
 @media (min-width: 768px) {
   header {
@@ -227,7 +228,7 @@ header .device-container .screen img {
 }
 @media (min-width: 992px) {
   header .header-content .header-content-inner h1 {
-    font-size: 50px;
+    font-size: 46px;
   }
 }
 section {
@@ -314,7 +315,8 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background: #0099ff;
+  /*background-image: url('../img/bg-cta.jpg');*/
   padding: 250px 0;
 }
 section.cta .cta-content {
@@ -459,4 +461,36 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
 }
