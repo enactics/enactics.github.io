@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	line-height: 1.5;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Playfair Display', Helvetica;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #3c3c3c;
+}
+
+p, li {
+	color: #484848;
+}
+
+.btn {
+	cursor: pointer !important;
+}
+
+.navbar-brand {
+	font-family: 'Playfair Display', Helvetica !important;
+	font-weight: 700;
+}
+
+.i-logo {
+	 color: #28a745 !important;
+}
+
+.hero {
+	padding-top: 17%;
+	position: relative;
+	background: #fff no-repeat center center;
+	width: 100%;
+	height: 88vh;
+	background-size: cover;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.hero-overlay {
+	position: absolute;
+	content: "";
+	z-index: 0;
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.hero-header {
+	padding-top: 0 !important;
+	color: white;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 60px;
+}
+
+.hero-subheader {
+	font-weight: 400;
+	font-size: 22px !important;
+	line-height: 1.1em;
+	color: white;
+}
+
+.profile-picture {
+	width: 200px;
+}
+
+
+.paragraph {
+	padding-bottom: 20px;
+}
+
+
+.nav-transcribe {
+	background-color: #28a745;
+}
+
+.tile {
+	padding-right: 5px; 
+	padding-top: 5px;
+}
+
+.img-tile {
+	padding-top: 4px !important;
+	width: 250px;
+	height: 250px;
+}
+
+.img-tile-search {
+	padding-top: 4px !important;
+	width: 150px;
+	height: 150px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-size: 18px !important;
+}
+
+
+.pt-5 {
+	padding-top: 5px;
+}
+
+.pt-10 {
+	padding-top: 10px;
+}
+
+.pt-15 {
+	padding-top: 15px;
+}
+
+.pt-20 {
+	padding-top: 20px;
+}
+
+.pt-30 {
+	padding-top: 30px;
+}
+
+.pt-40 {
+	padding-top: 40px;
+}
+
+.pt-50 {
+	padding-top: 50px;
+}
+
+.pt-60 {
+	padding-top: 60px;
+}
+
+.pt-70 {
+	padding-top: 70px;
+}
+
+.pt-80 {
+	padding-top: 80px;
+}
+
+
+
+
+.pb-5 {
+	padding-bottom: 5px;
+}
+
+.pb-10 {
+	padding-bottom: 10px;
+}
+
+.pb-15 {
+	padding-bottom: 15px;
+}
+
+
+.pb-20 {
+	padding-bottom: 20px;
+}
+
+.pb-30 {
+	padding-bottom: 30px;
+}
+
+.pb-40 {
+	padding-bottom: 40px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+.pb-60 {
+	padding-bottom: 60px;
+}
+
+.pb-70 {
+	padding-bottom: 70px;
+}
+
+.pb-80 {
+	padding-bottom: 80px;
+}
+
+
+.card,
+.card-body,
+.card-img-top {
+	border-radius: 0 !important;
+}
+
+.navbar-toggle {
+	border-radius: 0 !important;
+}
+
+.form-control {
+	border-radius: 0 !important;
+}
+
+.btn {
+	border-radius: 0 !important;
+}
